@@ -1,7 +1,6 @@
 import './App.css';
 import Header from "./components/layouts/Header";
 import Footer from "./components/layouts/Footer";
-import Sidebar from './components/layouts/Sidebar';
 import Profile from './routes/profile';
 import RoadMap from './routes/roadmap';
 import ForeignTrip from './routes/OverseasTraining';
@@ -18,7 +17,6 @@ function App() {
   return (
     <Router>
       <Header />
-      <Sidebar />
       <Routes>
         <Route path="/" element={<Profile />} />
         <Route path='/AboutMe' element={<AboutMe />} />
