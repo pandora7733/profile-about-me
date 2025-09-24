@@ -1,7 +1,12 @@
 function ForeignTrip() {
     return (
         <div>
-            this is foreigntrip
+            <div>
+                2024 싱가포르
+            </div>
+            <div>
+                2025 영국
+            </div>
         </div>
     )
 }

@@ -4,9 +4,9 @@ import Footer from "./components/layouts/Footer";
 import Profile from './routes/profile';
 import RoadMap from './routes/roadmap';
 import ForeignTrip from './routes/overseasTraining';
-import AboutMe from './routes/aboutme';
 import Project from './routes/project';
 import Qualifications from './routes/qualifications';
+import Layout from './components/Layout';
 import {
   BrowserRouter as Router,
   Routes,
@@ -16,16 +16,15 @@ import {
 function App() {
   return (
     <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Profile />} />
-        <Route path='/AboutMe' element={<AboutMe />} />
-        <Route path='/Project' element={<Project />} />
-        <Route path='/qualifications' element={<Qualifications />} />
-        <Route path="/overseasTraining" element={<ForeignTrip />} />
-        <Route path="/RoadMap" element={<RoadMap />} />
-      </Routes>
-      <Footer />
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Profile />} />
+          <Route path='/Project' element={<Project />} />
+          <Route path='/qualifications' element={<Qualifications />} />
+          <Route path="/overseasTraining" element={<ForeignTrip />} />
+          <Route path="/RoadMap" element={<RoadMap />} />
+        </Routes>
+      </Layout>
     </Router>
   );
 }
