@@ -3,7 +3,7 @@ import Header from "./components/layouts/Header";
 import Footer from "./components/layouts/Footer";
 import Profile from './routes/profile';
 import RoadMap from './routes/roadmap';
-import ForeignTrip from './routes/OverseasTraining';
+import ForeignTrip from './routes/overseasTraining';
 import AboutMe from './routes/aboutme';
 import Project from './routes/project';
 import Qualifications from './routes/qualifications';
