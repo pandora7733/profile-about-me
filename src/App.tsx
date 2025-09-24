@@ -17,10 +17,10 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<Profile />} />
-          <Route path='/Project' element={<Project />} />
+          <Route path='/project' element={<Project />} />
           <Route path='/qualifications' element={<Qualifications />} />
           <Route path="/overseasTraining" element={<ForeignTrip />} />
-          <Route path="/RoadMap" element={<RoadMap />} />
+          <Route path="/roadMap" element={<RoadMap />} />
         </Routes>
       </Layout>
     </Router>

@@ -13,7 +13,7 @@ function Header() {
                         <li><a href="/project" className="text-white hover:text-purple-200 transition-colors duration-200">project</a></li>
                         <li><a href="/qualifications" className="text-white hover:text-purple-200 transition-colors duration-200">Achievements</a></li>
                         <li><a href="/OverseasTraining" className="text-white hover:text-purple-200 transition-colors duration-200">overseas training</a></li>
-                        <li><a href="/RoadMap" className="text-white hover:text-purple-200 transition-colors duration-200">road map</a></li>
+                        <li><a href="/roadMap" className="text-white hover:text-purple-200 transition-colors duration-200">road map</a></li>
                     </ul>
                 </nav>
             </div>
