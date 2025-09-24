@@ -1,6 +1,4 @@
 import './App.css';
-import Header from "./components/layouts/Header";
-import Footer from "./components/layouts/Footer";
 import Profile from './routes/profile';
 import RoadMap from './routes/roadmap';
 import ForeignTrip from './routes/overseasTraining';
