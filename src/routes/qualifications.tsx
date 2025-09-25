@@ -6,7 +6,7 @@ function Qualifications() {
                 <h1 className="text-3xl font-bold border-b-2 border-blue-200 pb-2 mb-3">
                 <span className="text-blue-700">Certificates</span>
                 </h1>
-                <p className="text-gray-700">📜 수료증</p>
+                <h1 className="text-gray-700">📜 수료증</h1>
             </div>
 
             {/* Awards */}
@@ -14,7 +14,16 @@ function Qualifications() {
                 <h1 className="text-3xl font-bold border-b-2 border-blue-200 pb-2 mb-3">
                 <span className="text-blue-700">Awards</span>
                 </h1>
-                <p className="text-gray-700">🏆 상장, 수상내역</p>
+                <p className="text-gray-700">
+                    <h1>🏆 상장, 수상내역</h1>
+                    <br />
+                    <span>+ 2024 +</span>
+                    <p>7월 4일 목요일 마이크로소프트와 한국폴리텍대학이 공동 주최한 마이크로소프트 클라우드 AI모델 경진대회 (🥈은상 고등부)</p>
+                    <p>11월 1일 금요일 부산기계공업고등학교에서 주최한 테크톤 챌린지 (우수상, 창의상)</p>
+                    <p>11월 7일 목요일 제 15회 전국마이스터고등학교 제전 영마이스터 학술제 (프로제트 작품작[은상 it/sw 분야])</p>
+                    <br />
+                    <span>+ 2025 +</span>
+                </p>
             </div>
 
             {/* Qualifications */}
